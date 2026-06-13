@@ -87,17 +87,10 @@ as a skill (`planner_skills/`) the planner reads before calling.
 
 # 🗺️ Roadmap
 
-The full Newton method **trains** the planner with Flow-GRPO inside the live loop,
-and the VideoPhy-2 gains above come from that trained planner. **This repository
-releases the inference-time loop**, where the planner is a closed-source LLM API
-— it runs the complete Planner → Executer → Verifier pipeline end-to-end, with no
-training needed.
-
-| Status | Component |
-|--------|-----------|
-| ✅&nbsp;Released | Inference-time agentic loop (Planner → Executer → Verifier) |
-| ✅&nbsp;Released | All tools (`simulate`, `make_keyframes`, `img_create`, `image_search`, `prompt_refine`) + planner skills |
-| 🚧&nbsp;Planned | Flow-GRPO planner training code |
+- [x] Release OpenNewton inference-time agentic loop
+- [x] Compatibility with mainstream LLM / image / video generation APIs
+- [ ] Release training code for open-sourced planner
+- [ ] Release omni-conditioned video generator
 
 <br>
 
