@@ -15,6 +15,7 @@
     <a href="#-pipeline">Pipeline</a> •
     <a href="#-tools">Tools</a> •
     <a href="#-roadmap">Roadmap</a> •
+    <a href="#-automatic-start">Automatic Start</a> •
     <a href="#-quickstart">Quickstart</a> •
     <a href="#-usage">Usage</a> •
     <a href="#-citation">Citation</a>
@@ -94,6 +95,30 @@ as a skill (`planner_skills/`) the planner reads before calling.
 
 <br>
 
+# 🤖 Automatic Start
+
+If you use [Claude Code](https://claude.ai/code), Newton ships with built-in
+slash commands that handle setup and execution for you — no manual configuration
+needed.
+
+```bash
+# 1. Install Claude Code if you haven't already
+npm install -g @anthropic-ai/claude-code
+
+# 2. Open the repo
+cd newton && claude
+
+# 3. Inside Claude Code, type:
+/setup          # creates conda env, installs deps, walks you through API keys
+/run            # asks for a physics scenario and runs the full inference loop
+```
+
+That's it — `/setup` detects your CUDA version, installs the right PyTorch
+build, and interactively configures `.env`. `/run` validates your environment,
+helps you craft a scenario, and monitors the generation loop with live progress.
+
+<br>
+
 # 🚀 Quickstart
 
 ## 1. 🐍 Environment
@@ -124,30 +149,6 @@ providers (below) or any compatible third-party / locally-hosted endpoint:
 | Gemini | Image generation + video verifier | https://ai.google.dev/gemini-api/docs |
 | Seedance | Video generation | https://seed.bytedance.com/en/seedance2_0 |
 | Serper | Web image search | https://serper.dev/ |
-
-<br>
-
-# 🤖 Claude Code (recommended)
-
-If you use [Claude Code](https://claude.ai/code), Newton ships with built-in
-slash commands that handle setup and execution for you — no manual configuration
-needed.
-
-```bash
-# 1. Install Claude Code if you haven't already
-npm install -g @anthropic-ai/claude-code
-
-# 2. Open the repo
-cd newton && claude
-
-# 3. Inside Claude Code, type:
-/setup          # creates conda env, installs deps, walks you through API keys
-/run            # asks for a physics scenario and runs the full inference loop
-```
-
-That's it — `/setup` detects your CUDA version, installs the right PyTorch
-build, and interactively configures `.env`. `/run` validates your environment,
-helps you craft a scenario, and monitors the generation loop with live progress.
 
 <br>
 
