@@ -1,0 +1,9 @@
+genesis-world # for simulation
+
+openai>=2.0           
+requests>=2.31     
+numpy>=1.26.4       
+mcp>=1.0            
+imageio[ffmpeg]>=2.34  
+
+

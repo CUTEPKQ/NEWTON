@@ -1,0 +1,27 @@
+# ---- Secrets ----
+.env
+
+# ---- Generated outputs ----
+outputs/
+tools/seedance_videos/
+tools/seedance_tasks.jsonl
+
+
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- Env / build ----
+.venv/
+venv/
+build/
+dist/
+
+# ---- OS / editor cruft ----
+.DS_Store
+*.swp
+.idea/
+.vscode/
