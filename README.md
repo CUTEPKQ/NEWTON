@@ -21,7 +21,7 @@
     <a href="#-citation">Citation</a>
 </p>
 
-https://github.com/user-attachments/assets/b9b9879a-16fd-48e1-90b3-858f1165af61
+https://github.com/user-attachments/assets/0334d3dd-f59a-4954-9b98-c4c268720c33
 
 <br>
 
