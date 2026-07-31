@@ -2,7 +2,7 @@
     <img src="assets/figures/logo.png" width="55%">
 </p>
 
-<h1 align="center">Newton: Agentic Planning for Physics-Following Video Generation</h1>
+<h1 align="center">NEWTON: Agentic Planning for Physically Grounded Video Generation</h1>
 
 <p align="center">
     <a href="https://newton026.github.io/newton/"><img src="https://img.shields.io/badge/Page-Project-blue" alt="Project Page"></a>
@@ -186,7 +186,7 @@ If you find this project useful for your research, please consider citing:
 
 ```bibtex
 @article{feng2026newton,
-  title         = {Newton: Agentic Planning for Physics-Following Video Generation},
+  title         = {NEWTON: Agentic Planning for Physically Grounded Video Generation},
   author        = {Feng, Yuxiang and Wang, Juncheng and Xu, Chao and Qian, Yijie and Wang, Huihan and Hou, Wenlong and Liu, Yang and Sun, Baigui and Liu, Yong and Wang, Shujun},
   journal       = {arXiv preprint arXiv:2605.18396},
   year          = {2026},
